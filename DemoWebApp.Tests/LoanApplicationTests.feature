@@ -17,8 +17,8 @@ Scenario: Application completed successfully
 @failedapplication
 Scenario: Application ccould not be ompleted successfully
 	Given I am on the loan application screen
-		And I enter a first name of Sarah
-		And I enter a second name of Smith
+		And I enter a first name of satish
+		And I enter a second name of kumar
 		And I select that I have an existing loan account
 	When I submit my application
 	Then I should see error message for not ccepting terms and conditions

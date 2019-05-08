@@ -119,9 +119,9 @@ this.ScenarioInitialize(scenarioInfo);
 #line 19
  testRunner.Given("I am on the loan application screen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 20
-  testRunner.And("I enter a first name of Sarah", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+  testRunner.And("I enter a first name of satish", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 21
-  testRunner.And("I enter a second name of Smith", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+  testRunner.And("I enter a second name of kumar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 22
   testRunner.And("I select that I have an existing loan account", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 23

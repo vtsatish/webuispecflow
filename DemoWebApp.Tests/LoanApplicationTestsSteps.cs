@@ -1,7 +1,7 @@
 ﻿using System;
 using TechTalk.SpecFlow;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.Chrome;
 using Xunit;
 
 namespace DemoWebApp.Tests
@@ -16,7 +16,7 @@ namespace DemoWebApp.Tests
         [Given(@"I am on the loan application screen")]
         public void GivenIAmOnTheLoanApplicationScreen()
         {
-            _driver = new FirefoxDriver();
+            _driver = new ChromeDriver();
             _driver.Manage().Window.Maximize();
 
             //_driver.Navigate().GoToUrl("http://localhost:40077/Home/StartLoanApplication");
@@ -73,8 +73,8 @@ namespace DemoWebApp.Tests
             Assert.Equal(firstnamearg, _applicationConfirmationPage.FirstName);
         }
 
-        [Then(@"I should see error message for not ccepting terms and conditions")]
-        public void ThenIShouldSeeErrorMessageForNotCceptingTermsAndConditions()
+        [Then(@"I should see error message for not accepting terms and conditions")]
+        public void ThenIShouldSeeErrorMessageForNotAcceptingTermsAndConditions()
         {
             //IWebElement errmessage = _driver.FindElement(By.CssSelector("div.validation-summary-errors ul li"));
             //Assert.Equal("You must accept the terms and conditions", errmessage.Text);

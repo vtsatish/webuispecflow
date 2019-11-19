@@ -39,3 +39,4 @@ D:\MyFolders\github\LoanApplication\LoanApplicationSite\bin\roslyn\System.Reflec
 D:\MyFolders\github\LoanApplication\LoanApplicationSite\bin\roslyn\vbc.exe
 D:\MyFolders\github\LoanApplication\LoanApplicationSite\bin\roslyn\VBCSCompiler.exe
 D:\MyFolders\github\LoanApplication\LoanApplicationSite\bin\roslyn\VBCSCompiler.exe.config
+D:\MyFolders\github\LoanApplication\LoanApplicationSite\obj\Debug\LoanApplicationSite.csprojAssemblyReference.cache

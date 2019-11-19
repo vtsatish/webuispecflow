@@ -94,7 +94,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line 10
   testRunner.And("I enter a second name of Smith", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 11
-  testRunner.And("I select that I have an existing loan account", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+  testRunner.And("I select that I have an existing Loan account", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 12
   testRunner.And("I confirm my acceptance of the terms and conditions", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 13
@@ -123,11 +123,11 @@ this.ScenarioInitialize(scenarioInfo);
 #line 21
   testRunner.And("I enter a second name of kumar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 22
-  testRunner.And("I select that I have an existing loan account", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+  testRunner.And("I select that I have an existing Loan account", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 23
  testRunner.When("I submit my application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 24
- testRunner.Then("I should see error message for not ccepting terms and conditions", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I should see error message for not accepting terms and conditions", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
